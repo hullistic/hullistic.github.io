@@ -588,12 +588,20 @@ section {
   margin-bottom: 20px;
   transition: 0.3s;
 }
+
+.services .icon-box:hover {
+  color: #151515;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
 .services .icon-box .icon i {
   color: #151515;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box h4 {
+  color: #151515;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
@@ -602,10 +610,11 @@ section {
   color: #151515;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box h4 a:hover {
+.services .icon-box h4:hover {
   color: #ffc451;
 }
 .services .icon-box p {
+  color: #151515;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;

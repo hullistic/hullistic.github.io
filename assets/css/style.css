@@ -384,6 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 span {
   color: #ffc451;
 }
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
@@ -402,6 +403,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffc451;
 }
 #hero .icon-box h3 {
+  color: #fff;
   font-weight: 700;
   margin: 10px 0 0 0;
   padding: 0;
@@ -409,21 +411,34 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 26px;
 }
-#hero .icon-box h3 a {
+#hero .icon-box h3 a{
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+#hero .icon-box:hover h3{
+  color: #ffc451;
+}
+#hero .icon-box a {
   color: #fff;
   transition: ease-in-out 0.3s;
 }
-#hero .icon-box h3 a:hover {
+#hero .icon-box h3:hover {
   color: #ffc451;
 }
 #hero .icon-box:hover {
   border-color: #ffc451;
 }
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
+
 @media (max-width: 768px) {
   #hero {
     height: auto;
@@ -610,9 +625,11 @@ section {
   color: #151515;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box h4:hover {
+.services .icon-box:hover h4{
   color: #ffc451;
 }
+
+
 .services .icon-box p {
   color: #151515;
   line-height: 24px;
@@ -1091,6 +1108,9 @@ section {
 }
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
+}
+.email:hover p, .phone:hover p{
+  color: #ffc451;
 }
 .contact .php-email-form {
   width: 100%;
